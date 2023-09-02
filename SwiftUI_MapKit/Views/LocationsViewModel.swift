@@ -21,7 +21,6 @@ class LocationsViewModel: ObservableObject {
     let mapSpan = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
     
     init() {
-        
         let locations = LocationsDataService.locations
         self.locations = locations
         self.mapLocation = locations.first!
