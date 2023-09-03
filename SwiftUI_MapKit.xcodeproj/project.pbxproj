@@ -15,6 +15,7 @@
 		9B82319B2A9B5C98001B934B /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82319A2A9B5C98001B934B /* LocationsDataService.swift */; };
 		9B82319D2A9B71A7001B934B /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B82319C2A9B71A7001B934B /* LocationsView.swift */; };
 		9B8231A12A9B89D5001B934B /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8231A02A9B89D5001B934B /* LocationsViewModel.swift */; };
+		9B8231A32AA47BBF001B934B /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8231A22AA47BBF001B934B /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9B82319A2A9B5C98001B934B /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		9B82319C2A9B71A7001B934B /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		9B8231A02A9B89D5001B934B /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		9B8231A22AA47BBF001B934B /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				9B82319C2A9B71A7001B934B /* LocationsView.swift */,
-				9B8231A02A9B89D5001B934B /* LocationsViewModel.swift */,
+				9B8231A22AA47BBF001B934B /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -91,6 +93,7 @@
 		9B8231932A9B5AA6001B934B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9B8231A02A9B89D5001B934B /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				9B8231A12A9B89D5001B934B /* LocationsViewModel.swift in Sources */,
 				9B8231992A9B5C57001B934B /* ContentView.swift in Sources */,
 				9B82319D2A9B71A7001B934B /* LocationsView.swift in Sources */,
+				9B8231A32AA47BBF001B934B /* LocationsListView.swift in Sources */,
 				9B8231962A9B5B00001B934B /* Location.swift in Sources */,
 				9B8231832A9B5895001B934B /* SwiftUI_MapKitApp.swift in Sources */,
 			);
