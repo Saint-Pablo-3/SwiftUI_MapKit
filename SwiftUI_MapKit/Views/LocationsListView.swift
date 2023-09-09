@@ -21,7 +21,8 @@ struct LocationsListView: View {
                 }
                 .padding(.vertical, 4)
                 .listRowBackground(Color.clear)
-              
+             
+                
             }
         }
         .listStyle(PlainListStyle())
